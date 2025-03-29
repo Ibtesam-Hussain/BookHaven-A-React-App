@@ -1,0 +1,22 @@
+.book-details {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#inputReview {
+    padding: 8px;
+    margin: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+} 
+
+#submitBtn {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: rgb(25, 99, 236);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

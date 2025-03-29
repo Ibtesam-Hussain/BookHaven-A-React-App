@@ -1,0 +1,167 @@
+
+
+.slider-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+.slider-container2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+      
+    border-radius: 15px;
+}
+
+
+/* Book card styling */
+.book-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+    height: 20rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    width: 100%;
+}
+
+
+
+/* Add hover effect on desktop */
+@media (min-width: 768px) {
+    .book-card:hover {
+        background: rgba(52, 52, 52, 0.5);
+        backdrop-filter: blur(5px);
+        transform: scale(1.05);
+    }
+}
+
+.book-card img {
+    height: 150px;
+    border-radius: 5px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.book-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: white;
+}
+
+.book-card p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.book-card span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgb(201, 255, 5);
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    .book-card {
+        padding: 10px;
+    }
+
+    .book-card img {
+        width: 80px;
+        height: 120px;
+    }
+
+    .book-card h3 {
+        font-size: 14px;
+    }
+
+    .book-card p, .book-card span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book-card {
+        padding: 40px;
+    }
+
+    .book-card img {
+        width: 120px;
+        height: 150px;
+    }
+
+    .book-card h3 {
+        font-size: 12px;
+    }
+
+    .book-card p, .book-card span {
+        font-size: 10px;
+    }
+}
+
+
+.no-books {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#addbookbutton {
+    background-color: green;
+    color: white;
+    width: 100px;   
+    height: 40px;  
+    font-size: 15px; 
+    padding: 10px; 
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    border: none;
+}
+
+#addbookbutton:hover {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
+}
+
+
+/* fav heart toggle */
+.fav-btn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.fav-btn.favorited {
+    color: red;
+    transform: scale(1.2);
+}
+
+.slick-dots li button:before {
+    color: white !important;
+    opacity: 0.5 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white !important;
+    opacity: 1 !important;
+}
