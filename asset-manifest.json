@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/css/main.d90fcf38.css",
-    "main.js": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/js/main.152c5de1.js",
-    "static/js/453.9f724ba8.chunk.js": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/js/453.9f724ba8.chunk.js",
-    "static/media/pngwing.com.png": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/media/pngwing.com.29af01c1a9d098a5952b.png",
-    "static/media/slick.svg": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/Ibtesam-Hussain/BookHaven-A-React-App.git/index.html",
-    "main.d90fcf38.css.map": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/css/main.d90fcf38.css.map",
-    "main.152c5de1.js.map": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/js/main.152c5de1.js.map",
-    "453.9f724ba8.chunk.js.map": "/Ibtesam-Hussain/BookHaven-A-React-App.git/static/js/453.9f724ba8.chunk.js.map"
+    "main.css": "/BookHaven-A-React-App/static/css/main.fae31531.css",
+    "main.js": "/BookHaven-A-React-App/static/js/main.ff4019c4.js",
+    "static/js/453.9f724ba8.chunk.js": "/BookHaven-A-React-App/static/js/453.9f724ba8.chunk.js",
+    "static/media/pngwing.com.png": "/BookHaven-A-React-App/static/media/pngwing.com.29af01c1a9d098a5952b.png",
+    "static/media/slick.svg": "/BookHaven-A-React-App/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/BookHaven-A-React-App/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/BookHaven-A-React-App/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/BookHaven-A-React-App/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/BookHaven-A-React-App/index.html",
+    "main.fae31531.css.map": "/BookHaven-A-React-App/static/css/main.fae31531.css.map",
+    "main.ff4019c4.js.map": "/BookHaven-A-React-App/static/js/main.ff4019c4.js.map",
+    "453.9f724ba8.chunk.js.map": "/BookHaven-A-React-App/static/js/453.9f724ba8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d90fcf38.css",
-    "static/js/main.152c5de1.js"
+    "static/css/main.fae31531.css",
+    "static/js/main.ff4019c4.js"
   ]
 }
